@@ -9,13 +9,15 @@
   };
 
   return (
-    <div>
-      <h1>Emoji Picker</h1>
-      <EmojiPicker onEmojiClick={onEmojiClick} />
+    <div className="app-container">
+      <h1 className="app-title">Emoji Picker</h1>
+      <EmojiPicker onEmojiClick={onEmojiClick} className="emoji-picker" />
 {chosenEmoji &&(
-<div><p>Selected Emoji: {chosenEmoji.emoji}</p>
-<p>name: {chosenEmoji.name}</p>
+<div className="chosen-emoji"><p>Selected Emoji:{chosenEmoji.emoji}</p>
+<p>name:{chosenEmoji.name}</p>
 </div>)}
 </div>        
       );  
  }
+
+ export default App

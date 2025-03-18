@@ -1,1 +1,16 @@
- 
+
+.app-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .emoji-picker {
+    margin: 0 auto;
+    max-width: 500px;
+  }
+  
+  .chosen-emoji {
+    font-size: 2rem;
+    margin-top: 10px;
+  }
+  
